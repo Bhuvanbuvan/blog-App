@@ -1,5 +1,5 @@
 class Secrets {
-  static String supabaseUrl = "https://kwyoeidpgngimodarqew.supabase.co";
+  static String supabaseUrl = "https://pchwnxycmywqxxhdgopn.supabase.co";
   static String supabaseAnonKey =
-      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt3eW9laWRwZ25naW1vZGFycWV3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzAyMjgwOTYsImV4cCI6MjA0NTgwNDA5Nn0.q8M5-psN51lBEofY45XVuDQvi0Il4kM3fEf5N6YBANU";
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjaHdueHljbXl3cXh4aGRnb3BuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzEzNzgxNjQsImV4cCI6MjA0Njk1NDE2NH0.bqk_U4wWoxEzS7s6_ButmTjI_oiYSRYH-p1vwkR1xpw";
 }

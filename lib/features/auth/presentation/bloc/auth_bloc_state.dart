@@ -10,9 +10,9 @@ final class AuthBlocInitial extends AuthBlocState {}
 final class AuthLoading extends AuthBlocState {}
 
 final class AuthSuccess extends AuthBlocState {
-  final String uid;
+  final User user;
 
-  const AuthSuccess({required this.uid});
+  const AuthSuccess({required this.user});
 }
 
 final class AuthFailure extends AuthBlocState {
