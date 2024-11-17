@@ -40,6 +40,9 @@ class _LoginPageState extends State<LoginPage> {
             if (state is AuthFailure) {
               ShowSnacbar(context, state.message);
             }
+            if (state is AuthSuccess) {
+              ShowSnacbar(context, state.user.id);
+            }
           },
           builder: (context, state) {
             if (state is AuthLoading) {

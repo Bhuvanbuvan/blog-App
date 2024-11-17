@@ -24,3 +24,5 @@ final class AuthLogin extends AuthBlocEvent {
     required this.password,
   });
 }
+
+final class AuthIsUserLogedIn extends AuthBlocEvent {}
